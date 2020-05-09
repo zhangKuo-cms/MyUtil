@@ -21,7 +21,7 @@ public class DateUtilTest {
 
 		//获取日历类
 		Calendar c = Calendar.getInstance();
-		c.set(2001, 8, 5);
+		c.set(2020, 3, 4);
 		
 		//调用方法日期格式
 		Date date = DateUtil.getDateByInitMonth(c.getTime());

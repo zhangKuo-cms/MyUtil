@@ -18,7 +18,7 @@ public class FileUtilTest {
 	public void testGetExtendName() {
 
 		//定义一个文件
-		String file = "abc.abc";
+		String file = "aaa.jpg";
 		//获取方法一
 		String name = FileUtil.getExtendName(file);
 		System.out.println(name);
